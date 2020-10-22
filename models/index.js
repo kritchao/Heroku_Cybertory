@@ -5,10 +5,10 @@ const path = require('path');
 const Sequelize = require('sequelize');
 const basename = path.basename(__filename);
 const env = process.env.NODE_ENV || 'development';
-const config = require('../config/config.json')[env];
+const config = require('../config/config.json');
 const db = {};
 
-let sequelize = new Sequelize(config.database, config.username, config.password, config);
+let sequelize = new Sequelize('mysql://bd9462e56c1ea5:a1d9736b@us-cdbr-east-02.cleardb.com/heroku_fa4ad068e28ea25?reconnect=true');
 fs
   .readdirSync(__dirname)
   .filter(file => {
