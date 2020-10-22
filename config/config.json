@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "bd9462e56c1ea5",
+    "password": "a1d9736b",
+    "database": "heroku_fa4ad068e28ea25",
+    "host": "us-cdbr-east-02.cleardb.com",
+    "dialect": "mysql"
+  }
+}
